@@ -7,7 +7,7 @@ function App() {
 
   return (
   
-    <BrowserRouter>
+    <BrowserRouter basename='/hidropozo-vite/'>
       <Routes>
         <Route exact path="/" element={<Inicio/>}/>
         <Route exact path="/contacto" element={<Contacto/>}/>

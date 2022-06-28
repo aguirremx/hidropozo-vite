@@ -1,0 +1,28 @@
+.Module {
+    position: absolute;
+    top: 5vw;
+    left: 35vw;
+    width: 350px;
+    height: 100px;
+}
+.Module img {
+    width: 100%;
+    border-radius: 20px;
+}
+.Module-Container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.Module-Container .cerrar {
+    width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+}

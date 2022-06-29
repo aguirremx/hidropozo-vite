@@ -50,5 +50,20 @@
     position: inherit;
     margin-top: 40px;
 }
-     
+@media (max-width: 375px){
+  .Nav-container{
+    margin-top: 0px;
+    position: relative;
+  }
+}
+@media (width: 820px) {
+  
+.coolBeans {
+  border: 3px solid currentColor;
+  border-radius: 3rem;
+  font-size: 30px;
+
+  
+}
+}
     

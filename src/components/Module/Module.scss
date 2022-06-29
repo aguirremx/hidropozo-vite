@@ -26,3 +26,50 @@
     font-size: 22px;
     color: white;
 }
+.Module-Container .cerrar span{
+    width: 30px;
+    padding: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 360px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+@media (max-width: 375px){
+    .Module-Container {
+        position: absolute;
+        top: 130%;
+        background-color: transparent;
+    }
+    .Module {
+     position: absolute;
+     left: 10px;
+    }
+    .Module-Container .cerrar span{
+        width: 30px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 360px;
+        background-color: rgba(0, 0, 0, 0.397);
+    }
+   
+  }
+  @media (width: 820px) {
+    .Module-Container {
+        position: absolute;
+        top: 80vh;
+        // background-color: transparent;
+        height: fit-content;
+    }
+    .Module {
+     position: absolute;
+     left:250px;
+    }
+    .Module-Container .cerrar span{
+        width: 30px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 360px;
+        background-color: rgba(0, 0, 0, 0.397);
+    }
+  }

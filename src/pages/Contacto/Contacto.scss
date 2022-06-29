@@ -199,5 +199,22 @@ input::-webkit-input-placeholder, .areatext::-webkit-input-placeholder {
   @media (max-width: 375px) {
     footer {
       flex-wrap: wrap;
+      width: 100%;
+      // padding: 5px;
+      border-radius: 0 ;
     }
+    .form-container {
+      flex-wrap: wrap;
+      margin-top: 0;
+      // width: 100%;
+    }
+    #form {
+      width: 200px;
+    }
+    footer iframe {
+      border-radius: 0;
+      position: relative;
+      right: 10px;
+    }
+
   }

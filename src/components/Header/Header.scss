@@ -188,3 +188,128 @@
     display: none;
   }
 }
+@media (width: 820px){
+  .Header-body {
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    margin-right: 0;
+    background: deepskyblue;
+  }
+  
+  div.drop-container {
+    position: relative;
+    top: 400px;
+    right: -0;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 350px;
+    width: 350px;
+    
+  }
+  
+  
+  div.drop {
+    position: absolute;
+    top: -15%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100% 5% 100% 100%;
+    transform: rotate(-45deg);
+    margin: 0px;
+    background: rgb(21, 116, 148);
+    animation: drip 4s forwards;
+  }
+  
+  .Header-body h1 {
+    color: white;
+    position: relative;
+    font-size: 60px;
+    height: 1em;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    z-index: 2;
+    margin: 0;
+    text-align: center;
+    opacity: 0;
+    animation: appear 2s 2.5s forwards;
+  }
+  
+  @keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  div.drop-container:before,
+  div.drop-container:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    right: 50%;
+    transform: translate(50%) rotateX(75deg);
+    border-radius: 100%;
+    opacity: 0;
+    width: 75%;
+    height: 75%;
+    border: 5px solid skyblue;
+    animation: dripple 2s ease-out 1s;
+  }
+  
+  div.drop-container:after {
+    animation: dripple 2s ease-out 1.7s;
+  }
+  
+  @keyframes drip {
+    45% {
+      top: 0;
+      border-radius: 100% 5% 100% 100%;
+      transform: rotate(-45deg);
+    }
+    100% {
+      top: 0;
+      transform: rotate(-45deg);
+      border-radius: 100% 5% 100% 100%;
+    }
+  }
+  
+  @keyframes dripple {
+    0% {
+      width: 150px;
+      height: 150px;
+    }
+    25% {
+      opacity: 1;
+    }
+    100% {
+      width: 500px;
+      height: 500px;
+      top: -20%;
+      opacity: 0;
+    }
+  }
+
+  // Eslogan
+
+  .animated-title > div div {
+    font-size: 50px;
+    padding: 2vmin 0;
+    position: absolute;
+  }
+  
+.NavBar {
+  width: 100%;
+  position: absolute;
+  bottom: 250px;
+}
+.footer {
+display: none;
+  
+}
+}

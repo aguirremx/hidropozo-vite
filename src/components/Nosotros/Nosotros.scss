@@ -8,11 +8,12 @@ $black: #202020;
 
 .nosotros-container  p {
   padding: 0 10px;
-  min-width: 375px;
+  min-width: 300px;
   overflow: hidden;
 }
 .nosotros-image {
   width: 400px;
+  margin-bottom: 20px;
 }
 .nosotros-images {
   display: grid;
@@ -125,9 +126,18 @@ $black: #202020;
 @media (max-width: 375px) {
   .bigger{
     font-size: 50px;
+    margin-left: 20px;
   }
   .nosotros-image {
     width: 300px;
+  }
+  .text {
+    width: 320px;
+  }
+  .center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
 }

@@ -8,7 +8,7 @@ function Nosotros() {
       <div className="has-animation animate-in animation-rtl nosotros-title">
         <p className="bigger">Sobre Nosotros </p>
       </div>
-      <div className="has-animation animate-in animation-rtl">
+      <div className="has-animation animate-in animation-rtl center">
         <p className="text">
           Somos una empresa{" "}
           <b>
@@ -20,7 +20,7 @@ function Nosotros() {
           por la confiazay resultados entregados a nuestros clientes.
         </p>
       </div>
-      <div className="has-animation animate-in animation-rtl">
+      <div className="has-animation animate-in animation-rtl center">
         <p className="text">
           Proporcionamos nuestros servicios a toda la república mexicana para
           todos los sectores, desde el{" "}
